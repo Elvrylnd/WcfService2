@@ -16,7 +16,7 @@ namespace WcfService2
 
         [OperationContract]
         string Insert(InsertUser user);
-        [OperationContract]
+        [OperationContract]  
         gettestdata GetInfo();
         [OperationContract]
         string Update(UpdateUser u);
